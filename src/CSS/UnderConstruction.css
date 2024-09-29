@@ -1,0 +1,42 @@
+
+.under-construction {
+    background-color: white;
+    color: black;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 0%, 0.8);
+    display: flex;
+    flex-flow: column nowrap;
+    
+    align-items: center;
+    gap: 2em;
+    text-align: center;
+    margin: auto;
+    
+  }
+
+.cog-slow {
+    --fa-animation-duration: 9s
+}
+.cog-accelerated {
+    --fa-animation-duration: 1s;
+    --transform: "grow-6";
+}
+
+.cog-slow:hover, .cog-fast:hover {
+    --fa-animation-duration: 1s
+}
+.cogs {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+#logo {
+    width: 300px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
