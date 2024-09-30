@@ -34,7 +34,8 @@
 }
 
 #logo {
-    width: 300px;
+   
+    width: min(28em, 300px)
 }
 
 .center {
@@ -47,5 +48,5 @@ html {
 }
 
 #banner {
-    width: max(12em, 90%)
+    width: max(28em, 90%)
 }
