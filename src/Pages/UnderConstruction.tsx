@@ -21,16 +21,16 @@ function UnderConstruction() {
   };
 
   window.onload = function () {
-    document.getElementsByTagName("img")[1].style.width = "max(10em, 80%)";
+    document.getElementsByTagName("img")[1].style.width = "";
   };
 
   return (
     <>
       <main className="main-content under-construction">
-        <div className="horizontal-flex">
+        
           <img src="hhm-logo.png" id="logo" alt="hhm-logo" />
           <img src="hhm-banner.png" id="banner" alt="hhm-logo" />
-        </div>
+        
         
         <h1> Website Coming Soon! </h1>
        
