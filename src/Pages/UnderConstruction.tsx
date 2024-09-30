@@ -20,9 +20,7 @@ function UnderConstruction() {
     }
   };
 
-  window.onload = function () {
-    document.getElementsByTagName("img")[1].style.width = "";
-  };
+ 
 
   return (
     <>
